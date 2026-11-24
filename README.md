@@ -86,7 +86,7 @@ Final XGBoost model on the hold-out test set (595 samples): **MCC 0.90, accuracy
 
 Group project (4 students) for the module *Artificial Intelligence I*,
 MSc Digital Farming, Hochschule Weihenstephan-Triesdorf, 2026.
-My contribution: data exploration and preprocessing through model training.
+My contribution: data exploration, preprocessing, model training, hyperparameter tuning and model comparison.
 
 ## Technologies
 
