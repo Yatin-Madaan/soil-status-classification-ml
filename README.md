@@ -70,6 +70,26 @@ The models were compared using the same StratifiedKFold cross-validation strateg
 
 A separate hold-out test set was used for final generalisation evaluation.
 
+## Results
+
+| Model | Best CV MCC |
+|---|---|
+| XGBoost | **0.858** |
+| Random Forest | 0.750 |
+| SVM | 0.502 |
+| KNN | 0.472 |
+| Logistic Regression | 0.358 |
+
+Final XGBoost model on the hold-out test set (595 samples): **MCC 0.90, accuracy 95.1%**.
+
+## Context and My Role
+
+Group project (4 students) for the module *Artificial Intelligence I*,
+MSc Digital Farming, Hochschule Weihenstephan-Triesdorf, 2026.
+I contributed to every stage of the workflow, from data exploration and
+preprocessing through model training, hyperparameter tuning, model comparison
+and final evaluation.
+
 ## Technologies
 
 - Python
@@ -83,7 +103,7 @@ A separate hold-out test set was used for final generalisation evaluation.
 
 ## Repository Contents
 
-- `AI_01_project.ipynb` — complete machine learning workflow and analysis
+- `soil_status_classification_machine_learning.ipynb` — complete machine learning workflow and analysis
 
 ## Author
 
